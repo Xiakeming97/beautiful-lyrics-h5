@@ -5,6 +5,6 @@ module.exports = {
     './src/layouts/**/*.tsx',
   ],
   theme:{
-    colors:[]
-  }
+    // colors:[]
+  },
 }

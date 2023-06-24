@@ -1,21 +1,16 @@
-import { Link, Outlet } from 'umi';
-import styles from './index.less';
+import { Link, Outlet } from "umi";
+
+import Player from "@/components/player/Player";
+
+import styles from "./index.less";
 
 export default function Layout() {
   return (
-    <div className={styles.navs}>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/docs">Docs</Link>
-        </li>
-        <li>
-          <a href="https://github.com/umijs/umi">Github</a>
-        </li>
-      </ul>
-      <Outlet />
+    <div className="max-w-screen-2xl h-screen flex flex-col m-auto bg-purple-300">
+      <div className=" flex-1 overflow-auto">
+        <Outlet />
+      </div>
+      <Player></Player>
     </div>
   );
 }
