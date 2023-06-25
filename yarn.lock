@@ -2876,7 +2876,7 @@
 
 "@umijs/plugins@^4.0.71":
   version "4.0.71"
-  resolved "https://registry.npmmirror.com/@umijs/plugins/-/plugins-4.0.71.tgz"
+  resolved "https://registry.npmmirror.com/@umijs/plugins/-/plugins-4.0.71.tgz#f87e164e17c3f8b200c1c27e50697fc3986728f1"
   integrity sha512-GRfz4iQn2JSLup41hKEiaOq4fyIpZDmJQbsgtpoFTzHAJjdZlBcznSHT6ttpGTGFBa6/yNygBq+JkjEh1EGlgA==
   dependencies:
     "@ahooksjs/use-request" "^2.0.0"
