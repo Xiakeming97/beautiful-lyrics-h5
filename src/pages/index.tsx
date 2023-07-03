@@ -7,7 +7,7 @@ export default function HomePage() {
   const [ellipsis, setEllipsis] = useState(true);
   return (
     <div>
-      <h2>Yay! Welcome to umi!</h2>
+      {/* <h2>Yay! Welcome to umi!</h2>
       <p>
         <img src={yayJpg} width="388" />
       </p>
@@ -23,7 +23,7 @@ export default function HomePage() {
         Design, a design language for background applications, is refined by Ant UED Team. Ant
         Design, a design language for background applications, is refined by Ant UED Team. Ant
         Design, a design language for background applications, is refined by Ant UED Team.
-      </Paragraph>
+      </Paragraph> */}
     </div>
   );
 }
