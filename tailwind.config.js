@@ -20,4 +20,8 @@ module.exports = {
   },
   darkMode: 'class',
   plugins: [require('@tailwindcss/forms')],
+  corePlugins: {
+    // 删除Tailwind的CSS预检样式，以便它可以使用Material UI的预检样式(CssBaseline)。
+    preflight: false,
+  },
 }
