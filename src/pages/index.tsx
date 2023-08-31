@@ -17,8 +17,7 @@ export default function HomePage() {
   const [ellipsis, setEllipsis] = useState(true);
   return (
     <div>
-      <Card className=" bg-cayn-300 w-24 h-96">这是我的第一个网站</Card>
-      <div>我有添加了一个钉钉机器人</div>
+      我是内容
     </div>
   );
 }

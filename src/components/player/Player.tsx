@@ -9,7 +9,7 @@ import { Button } from "antd";
 export default function Player() {
   return (
     <>
-    <div className=" w-full h-24 bg-cayn-200">播放导航栏</div>
+    <div className=" w-full h-24 bg-cyan-100 dark:bg-cyan-900">播放导航栏</div>
     </>
   );
 }

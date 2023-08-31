@@ -17,11 +17,13 @@ export default function Layout() {
   }, [darkMode]);
 
   return (
-    <div className=" w-screen h-screen flex flex-col items-center  bg-cayn-400">
-      <div className=" w-full h-full max-w-screen-2xl bg-cayn-100 flex flex-col">
+    <div className=" w-screen h-screen flex flex-col items-center bg-white dark:bg-gray-800 ">
+      <div className=" w-full h-full max-w-screen-2xl flex flex-col">
         <div className=" flex-1 flex ">
-          <Menu></Menu>
-          <div className="flex-1">内容</div>
+          <Menu darkMode={darkMode} setDarkMode={setDarkMode}></Menu>
+          <div className="flex-1">
+            <Outlet />
+          </div>
         </div>
         <Player></Player>
       </div>
